@@ -1,15 +1,34 @@
 **Smart Gloves detection System**
-
-1-The System tries to detect the gloves or no gloves in hand when we upload any image of hand or also using video framing also.
+The Smart Gloves Detection System detects whether a person is wearing gloves or not using images or real-time video streams. The system is designed for industrial and safety-use cases where glove compliance is mandatory. It uses a YOLOv8n object detection model trained on a custom dataset to identify hands with and without gloves.
 
 2-For this System we Use ***python 3.10+ version ***
 
 **For Dataset-**
+Dataset Name: Hand Gloves Detection Dataset  
+Source: Roboflow  
+Classes:  
+glove  
+no_glove  
+The dataset was annotated using bounding boxes and exported in YOLOv8 format.   
+Images include variations in hand orientation, lighting conditions, and partial occlusions to improve real-world robustness.   
 
-1- Choose Robowflow  
-2-Train the YOLO8n   
-3- then run the script gloves_detection.py for images   
-4- run the script "glove.py" for video.   
+
+**Model Used**
+Model: YOLOv8n (Nano version)  
+Framework: Ultralytics YOLO   
+Reason for Choice:   
+YOLOv8n provides a good balance between speed and accuracy, making it suitable for real-time detection on images and video streams.
+
+**Preprocessing & Training**
+
+Images were resized automatically by YOLO during training.  
+***Default YOLO augmentations were used, including:***
+Random scaling  
+Flipping  
+Brightness and contrast adjustments  
+
+The model was trained on the Roboflow dataset using a custom train.py script.   
+Training was performed using Python 3.10+ inside a virtual environment.   
 
 **How to work:**
  
