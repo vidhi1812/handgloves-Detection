@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML / CV
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# OS
+.DS_Store
