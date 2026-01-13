@@ -1,9 +1,9 @@
-**Smart Gloves detection System**
+**Smart Gloves detection System**   
 The Smart Gloves Detection System detects whether a person is wearing gloves or not using images or real-time video streams. The system is designed for industrial and safety-use cases where glove compliance is mandatory. It uses a YOLOv8n object detection model trained on a custom dataset to identify hands with and without gloves.
 
 2-For this System we Use ***python 3.10+ version ***
 
-**For Dataset-**
+**For Dataset-**  
 Dataset Name: Hand Gloves Detection Dataset  
 Source: Roboflow  
 Classes:  
@@ -13,7 +13,7 @@ The dataset was annotated using bounding boxes and exported in YOLOv8 format.
 Images include variations in hand orientation, lighting conditions, and partial occlusions to improve real-world robustness.   
 
 
-**Model Used**
+**Model Used**  
 Model: YOLOv8n (Nano version)  
 Framework: Ultralytics YOLO   
 Reason for Choice:   
