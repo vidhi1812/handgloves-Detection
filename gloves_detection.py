@@ -3,7 +3,7 @@ import cv2
 from ultralytics import YOLO
 
 
-MODEL_PATH = r"runs\detect\runs\train\ppe_yolov11s\weights\last.pt"
+MODEL_PATH = r"runs\detect\runs\train\ppe_yolov8n\weights\last.pt"
 INPUT_PATH = "input_images"  
 OUTPUT_PATH = "output_images"
 
