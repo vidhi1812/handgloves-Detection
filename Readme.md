@@ -43,6 +43,9 @@
   python train.py
 
 ![imag2](https://github.com/user-attachments/assets/0fdef5d4-d76f-44ae-b7c7-66238659faf0)
-![img1](https://github.com/user-attachments/assets/980a474c-cc34-4c3a-8c4a-e4329fa85d29)
+
 ![imag2](https://github.com/user-attachments/assets/1496bf12-468f-4b0b-922e-7ed7325cd01d)
-![img1](https://github.com/user-attachments/assets/00ca97a6-8943-4e82-bce1-15cbcf07b5e9)
+
+
+<p align="center"> <img src="(https://github.com/user-attachments/assets/980a474c-cc34-4c3a-8c4a-e4329fa85d29)" width="400" height="300"/> </p> <p align="center"><b>Input Image</b></p> <p align="center"> <img src="![img1](https://github.com/user-attachments/assets/00ca97a6-8943-4e82-bce1-15cbcf07b5e9)
+" width="400" height="300"/> </p> <p align="center"><b>Output Image (Gloves Detected)</b></p>
