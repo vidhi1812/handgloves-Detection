@@ -5,7 +5,7 @@ The Smart Gloves Detection System detects whether a person is wearing gloves or 
 
 **For Dataset-**  
 Dataset Name: Hand Gloves Detection Dataset  
-Source: Roboflow :  https://universe.roboflow.com/gpartnershikp/gloves-oy8ur
+Source: Roboflow :  https://universe.roboflow.com/gpartnershikp/gloves-oy8ur   
 Classes:  
 glove  
 no_glove  
