@@ -33,9 +33,12 @@
 
  *Activate the venv:*
  venv/scripts/activate
+![imag2](https://github.com/user-attachments/assets/0fdef5d4-d76f-44ae-b7c7-66238659faf0)
 
  *Install the requirements:*
   pip install -r requirements.txt
 
   *Run training Script*
   python train.py
+
+
