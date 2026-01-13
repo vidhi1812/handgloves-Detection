@@ -6,10 +6,10 @@
 
 **For Dataset-**
 
-1- Choose Robowflow 
-2-Train the YOLO8n 
-3- then run the script gloves_detection.py for images 
-4- run the script "glove.py" for video.
+1- Choose Robowflow  
+2-Train the YOLO8n   
+3- then run the script gloves_detection.py for images   
+4- run the script "glove.py" for video.   
 
 **How to work:**
  
